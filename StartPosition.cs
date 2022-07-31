@@ -18,5 +18,6 @@ namespace SnakeandLadderProblem
             int StartPosition = 0;
             return StartPosition;
         }
+
     }
 }
