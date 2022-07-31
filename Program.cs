@@ -11,6 +11,8 @@ namespace SnakeandLadderProblem
             Console.WriteLine("Start Position " + StartPositon);
             int roll = DiceRoll.DiceRollValue();
             Console.WriteLine("value of Dice Roll " + roll);
+            int Position = CheckOption.Option(roll, StartPositon);
+            Console.WriteLine("Position " + Position);
         }
     }
 }
